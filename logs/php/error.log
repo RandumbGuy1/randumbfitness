@@ -1,0 +1,92 @@
+[10-Sep-2024 14:26:41 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:41 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:43 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:43 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:44 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:44 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:44 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:44 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:44 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:44 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:44 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:45 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:57 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enque_script" in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\functions.php on line 5
+[10-Sep-2024 14:26:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[10-Sep-2024 14:26:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[10-Sep-2024 14:32:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "awesome_script_enqueue" not found or invalid function name in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\script-loader.php(2263): do_action('wp_enqueue_scri...')
+#3 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\general-template.php(3065): do_action('wp_head')
+#7 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\header.php(6): wp_head()
+#8 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template.php(810): require_once('C:\\Users\\Techst...')
+#9 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Techst...', true, Array)
+#10 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\index.php(1): get_header()
+#12 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Techst...')
+#13 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Techst...')
+#14 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\index.php(17): require('C:\\Users\\Techst...')
+#15 {main}
+  thrown in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php on line 324
+[10-Sep-2024 14:33:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "awesome_script_enqueue" not found or invalid function name in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\script-loader.php(2263): do_action('wp_enqueue_scri...')
+#3 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\general-template.php(3065): do_action('wp_head')
+#7 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\header.php(6): wp_head()
+#8 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template.php(810): require_once('C:\\Users\\Techst...')
+#9 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Techst...', true, Array)
+#10 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\index.php(1): get_header()
+#12 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Techst...')
+#13 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Techst...')
+#14 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\index.php(17): require('C:\\Users\\Techst...')
+#15 {main}
+  thrown in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php on line 324
+[10-Sep-2024 14:33:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "awesome_script_enqueue" not found or invalid function name in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\script-loader.php(2263): do_action('wp_enqueue_scri...')
+#3 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\general-template.php(3065): do_action('wp_head')
+#7 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\header.php(6): wp_head()
+#8 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template.php(810): require_once('C:\\Users\\Techst...')
+#9 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Techst...', true, Array)
+#10 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\index.php(1): get_header()
+#12 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Techst...')
+#13 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Techst...')
+#14 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\index.php(17): require('C:\\Users\\Techst...')
+#15 {main}
+  thrown in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php on line 324
+[10-Sep-2024 14:33:11 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "awesome_script_enqueue" not found or invalid function name in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\script-loader.php(2263): do_action('wp_enqueue_scri...')
+#3 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\general-template.php(3065): do_action('wp_head')
+#7 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\header.php(6): wp_head()
+#8 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template.php(810): require_once('C:\\Users\\Techst...')
+#9 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Techst...', true, Array)
+#10 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-content\themes\awesometheme\index.php(1): get_header()
+#12 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Techst...')
+#13 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Techst...')
+#14 C:\Users\Techstudent\Local Sites\randumbfitness\app\public\index.php(17): require('C:\\Users\\Techst...')
+#15 {main}
+  thrown in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-hook.php on line 324
+[10-Sep-2024 14:38:55 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Techstudent\Local Sites\randumbfitness\app\public\wp-includes\class-wp-customize-widgets.php on line 905
